@@ -3,7 +3,6 @@ date: 2026-02-28T16:43:36+09:00
 draft: false
 title: "データから大通りを探せ"
 tags: ["データ分析"]
-categories: ["tech"]
 ---
 
 ## データ分析と戦略と優先度

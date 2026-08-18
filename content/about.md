@@ -8,11 +8,16 @@ ShowReadingTime: false
 ShowWordCount: false
 ShowPostNavLinks: false
 ShowBreadCrumbs: false
+disableShare: true
 ---
 
 ## 自己紹介
 
-データアナリスト・データエンジニアとして活動しています。(仮のプロフィール文です。後で編集してください)
+薄井研二 / USUI Kenji
+
+フリーランスのデータアナリスト・データエンジニアです。  
+データの活用を中心に分析・基盤構築・AI活用の支援をおこなっています。  
+ご興味のある方は下記リンクよりご相談ください。
 
 ## リンク
 

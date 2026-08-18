@@ -3,7 +3,6 @@ date: 2023-04-09T00:39:49+09:00
 draft: false
 title: "ゼロからM2 MacにPython環境構築"
 tags: ["mac", "python", "M2"]
-categories: ["tech"]
 ---
 
 プライベートで使っているPCをApple Silicon M2チップを搭載したMac mini 2023に変えたのでPythonの環境をゼロから構築しました。

@@ -3,7 +3,6 @@ date: 2022-12-07T11:30:18+09:00
 draft: false
 title: "BigQueryでJSONの配列から行に変換する"
 tags: ["SQL", "BigQuery", "JSON"]
-categories: ["tech"]
 ---
 
 valueに配列を含むJSONから配列を抽出し行へ変換するクエリの書き方

@@ -3,7 +3,6 @@ date: 2025-06-24T16:58:57+09:00
 draft: false
 title: "データに基づく意思決定と経験に基づく意思決定"
 tags: ["データ分析"]
-categories: ["tech"]
 ---
 
 # はじめに

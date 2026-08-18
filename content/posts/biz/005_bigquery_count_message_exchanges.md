@@ -3,7 +3,6 @@ date: 2023-03-15T01:20:36+09:00
 draft: false
 title: "メッセージの往復回数をカウントするSQLクエリの書き方"
 tags: ["sql", "bigquery"]
-categories: ["tech"]
 ---
 
 タイトルどおりメッセージの往復回数をカウントするクエリの書き方です。

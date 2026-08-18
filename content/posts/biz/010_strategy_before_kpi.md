@@ -3,7 +3,6 @@ date: 2026-02-15T18:00:45+09:00
 draft: false
 title: "戦略なくしてKPIなし"
 tags: ["データ分析"]
-categories: ["tech"]
 ---
 
 ## 課題が見えたら次は何をするか

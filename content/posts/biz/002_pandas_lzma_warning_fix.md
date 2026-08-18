@@ -3,7 +3,6 @@ date: 2021-08-13T00:37:47+09:00
 draft: false
 title: "lzmaが入っていないって怒られるwarningを解消する"
 tags: ["Python", "pyenv", "pandas"]
-categories: ["tech"]
 ---
 
 pandasを使っていたら下記のwarningがでていたのを解決したので備忘録。

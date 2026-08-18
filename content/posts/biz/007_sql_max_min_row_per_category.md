@@ -3,7 +3,6 @@ date: 2023-04-28T23:18:34+09:00
 draft: false
 title: "SQLでカテゴリごとに最大・最小の値を持つ行を取得する"
 tags: ["sql", "bigquery"]
-categories: ["tech"]
 ---
 
 SQLではよくあるケースだけど案外書くのが難しい書き方。

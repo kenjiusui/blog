@@ -3,7 +3,6 @@ date: 2022-06-09T00:01:17+09:00
 draft: false
 title: "Cloud FunctionをCloud Composerから認証有りでHTTP起動する"
 tags: ["cloudfunctions", "cloudcomposer", "gcp"]
-categories: ["tech"]
 ---
 
 Cloud ComposerからCloud Functionsにある関数を認証有りのHTTPトリガーで軌道する方法です。
