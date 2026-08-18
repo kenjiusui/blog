@@ -2,6 +2,7 @@ baseURL = 'https://kenjiusui.github.io/blog/'
 locale = 'ja'
 title = 'my blog'
 theme = "PaperMod"
+metaDataFormat = 'yaml'
 
 [params]
   defaultTheme = "auto"
