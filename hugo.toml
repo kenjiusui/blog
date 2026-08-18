@@ -14,7 +14,7 @@ metaDataFormat = 'yaml'
 
   [params.profileMode]
     enabled = true
-    title = "考えたことを書く"
+    title = "考えたら書く"
 
 [[menu.main]]
   identifier = "posts"
