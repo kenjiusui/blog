@@ -12,11 +12,34 @@ metaDataFormat = 'yaml'
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+  [params.profileMode]
+    enabled = true
+    title = "Welcome"
+    subtitle = "データ分析・データ基盤について書いているブログです。(仮の紹介文です。後で編集してください)"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
+
+  [[params.socialIcons]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/grahamian.bsky.social"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/kenji-usui-b9080b150/"
+
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
   url = "/posts/"
   weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 5
 
 [[menu.main]]
   identifier = "tags"
