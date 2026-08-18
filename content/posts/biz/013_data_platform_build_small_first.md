@@ -85,4 +85,3 @@ tags: ["データ分析", "データエンジニアリング", "データ基盤"
 
 では、具体的にどのように小さく作ればよいのでしょうか？
 次の記事ではMVPについて考察します。
-https://zenn.dev/grahamian/articles/004_data_platform_mvp
