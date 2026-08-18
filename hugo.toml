@@ -1,6 +1,6 @@
 baseURL = 'https://kenjiusui.github.io/blog/'
 locale = 'ja'
-title = 'my blog'
+title = 'かんがえたことをかく'
 theme = "PaperMod"
 metaDataFormat = 'yaml'
 
@@ -14,7 +14,7 @@ metaDataFormat = 'yaml'
 
   [params.profileMode]
     enabled = true
-    title = "Welcome"
+    title = "Think and Write"
 
 [[menu.main]]
   identifier = "posts"
