@@ -11,6 +11,6 @@ ShowBreadCrumbs: false
 disableShare: true
 ---
 
-## Web書籍一覧
+## オンライン書籍
 
 - [データ分析基盤入門](data-platform-intro/)
