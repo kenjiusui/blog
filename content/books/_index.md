@@ -1,5 +1,5 @@
 ---
-title: "Book"
+title: "Books"
 layout: "single"
 url: "/books/"
 summary: "書籍一覧"

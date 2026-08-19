@@ -3,6 +3,7 @@ locale = 'ja'
 title = 'Think and Write'
 theme = "PaperMod"
 metaDataFormat = 'yaml'
+ignoreFiles = ['CLAUDE\.md$']
 
 [params]
   defaultTheme = "auto"
@@ -24,7 +25,7 @@ metaDataFormat = 'yaml'
 
 [[menu.main]]
   identifier = "books"
-  name = "Book"
+  name = "Books"
   url = "/books/"
   weight = 15
 
