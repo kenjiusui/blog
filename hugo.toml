@@ -34,4 +34,6 @@ metaDataFormat = 'yaml'
   url = "/about/"
   weight = 5
 
-googleAnalytics = "G-TESTID123"
+[services]
+  [services.googleAnalytics]
+    ID = "G-HV90P77G6C"
