@@ -7,8 +7,8 @@ metaDataFormat = 'yaml'
 [params]
   defaultTheme = "auto"
   ShowReadingTime = false
-  ShowShareButtons = true
-  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowPostNavLinks = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
@@ -33,3 +33,5 @@ metaDataFormat = 'yaml'
   name = "About"
   url = "/about/"
   weight = 5
+
+googleAnalytics = "G-TESTID123"
