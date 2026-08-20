@@ -1,0 +1,42 @@
+{{- $url := .Get 0 -}}
+{{- if not $url -}}
+  {{- errorf "link-card: URLを指定してください（例: {{< link-card \"https://example.com\" >}}）" -}}
+{{- end -}}
+{{- $result := try (resources.GetRemote $url) -}}
+{{- with $result.Err -}}
+  {{- errorf "link-card: %s の取得に失敗しました (%s)" $url . -}}
+{{- else -}}
+  {{- with $result.Value -}}
+    {{- $html := .Content -}}
+    {{- $title := partial "extract-og.html" (dict "html" $html "prop" "og:title") -}}
+    {{- if not $title -}}
+      {{- with findRE `(?is)<title[^>]*>([^<]*)</title>` $html 1 -}}
+        {{- if gt (len .) 0 -}}
+          {{- $title = htmlUnescape (replaceRE `(?is)<title[^>]*>([^<]*)</title>` "$1" (index . 0)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $desc := partial "extract-og.html" (dict "html" $html "prop" "og:description") -}}
+    {{- $image := partial "extract-og.html" (dict "html" $html "prop" "og:image") -}}
+    {{- $siteName := partial "extract-og.html" (dict "html" $html "prop" "og:site_name") -}}
+    {{- $host := "" -}}
+    {{- with urls.Parse $url -}}{{- $host = .Host -}}{{- end -}}
+    {{- if $image -}}
+      {{- if not (hasPrefix $image "http") -}}
+        {{- $image = printf "https://%s%s" $host $image -}}
+      {{- end -}}
+    {{- end -}}
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer nofollow" class="link-card">
+  {{- if $image }}
+  <div class="link-card-image"><img src="{{ $image }}" alt="" loading="lazy" /></div>
+  {{- end }}
+  <div class="link-card-body">
+    <div class="link-card-title">{{ if $title }}{{ $title }}{{ else }}{{ $url }}{{ end }}</div>
+    {{- if $desc }}
+    <div class="link-card-desc">{{ $desc }}</div>
+    {{- end }}
+    <div class="link-card-site">{{ if $siteName }}{{ $siteName }}{{ else }}{{ $host }}{{ end }}</div>
+  </div>
+</a>
+  {{- end -}}
+{{- end -}}

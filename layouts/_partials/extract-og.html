@@ -1,0 +1,25 @@
+{{- $html := .html -}}
+{{- $prop := .prop -}}
+{{- $value := "" -}}
+{{- $tagPattern := printf `(?is)<meta[^>]*property=["']%s["'][^>]*>` $prop -}}
+{{- $tag := "" -}}
+{{- with findRE $tagPattern $html 1 -}}
+  {{- if gt (len .) 0 -}}
+    {{- $tag = index . 0 -}}
+  {{- end -}}
+{{- end -}}
+{{- if $tag -}}
+  {{- with findRE `content="([^"]*)"` $tag 1 -}}
+    {{- if gt (len .) 0 -}}
+      {{- $value = replaceRE `content="([^"]*)"` "$1" (index . 0) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $value -}}
+    {{- with findRE `content='([^']*)'` $tag 1 -}}
+      {{- if gt (len .) 0 -}}
+        {{- $value = replaceRE `content='([^']*)'` "$1" (index . 0) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (htmlUnescape $value) -}}
