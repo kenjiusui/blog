@@ -21,6 +21,18 @@ ignoreFiles = ['CLAUDE\.md$']
     name = "rss"
     url = "index.xml"
 
+  [[params.socialIcons]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/grahamian.bsky.social"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/kenji-usui-b9080b150/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kenjiusui"
+
 [[menu.main]]
   identifier = "posts"
   name = "Posts"

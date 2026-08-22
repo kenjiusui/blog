@@ -32,3 +32,4 @@ disableShare: true
 
 - [Bluesky](https://bsky.app/profile/grahamian.bsky.social)
 - [LinkedIn](https://www.linkedin.com/in/kenji-usui-b9080b150/)
+- [GitHub](https://github.com/kenjiusui)
