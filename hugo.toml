@@ -17,6 +17,10 @@ ignoreFiles = ['CLAUDE\.md$']
     enabled = true
     title = "考えたら書く"
 
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
