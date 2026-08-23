@@ -51,6 +51,11 @@ ignoreFiles = ['CLAUDE\.md$']
   url = "/about/"
   weight = 5
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+
 [services]
   [services.googleAnalytics]
     ID = "G-HV90P77G6C"
