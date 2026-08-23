@@ -1,6 +1,7 @@
 ---
 date: 2026-08-18T00:00:00+09:00
 draft: false
+hiddenInRss: true
 title: "はじめに：この本について"
 weight: 1
 ShowBreadCrumbs: true
