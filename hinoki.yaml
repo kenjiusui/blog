@@ -1,0 +1,11 @@
+handle: grahamian.bsky.social
+pds: https://bsky.social
+content_dir: content
+site_url: https://kenjiusui.github.io/blog/
+site_name: Think and Write
+publication_rkey: 3mtsvfozrczfw
+exclude_dirs:
+    - books
+exclude_files:
+    - about.md
+    - CLAUDE.md
