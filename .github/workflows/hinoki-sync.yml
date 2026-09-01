@@ -26,7 +26,7 @@ jobs:
           go-version: 'stable'
 
       - name: Install hinoki
-        run: go install github.com/harutsugegusa/hinoki/cmd/hinoki@latest
+        run: go install github.com/kenjiusui/hinoki/cmd/hinoki@latest
 
       - name: Sync
         env:
