@@ -1,0 +1,196 @@
+{
+  "documents": {
+    "posts/biz/001_データ分析レポートで気をつけたい基本的なこと.md": {
+      "rkey": "3mtsvfpahy5ja",
+      "hash": "8b63de64ec1e159bc9f5dfd06b0c6853efe2ee94275791ca724dcbd8ff25cc5b"
+    },
+    "posts/biz/002_lzmaが入っていないって怒られるwarningを解消する.md": {
+      "rkey": "3mtsvfpgmybhn",
+      "hash": "4a3d9c8dc6e3f589019c615bff1409ec3b4e402c4087671550784354f2a39e47"
+    },
+    "posts/biz/003_Cloud FunctionをCloud Composerから認証有りでHTTP起動する.md": {
+      "rkey": "3mtsvfpmmgups",
+      "hash": "c71958c7f277601d72eec21b1488b2241e8354a4713a728d0c346bfee157b67f"
+    },
+    "posts/biz/004_BigQueryでJSONの配列から行に変換する.md": {
+      "rkey": "3mtsvfpsmpofv",
+      "hash": "1745733eaddb3c3aa789c4c5519b88f44ec34ad0e64de4b5ecefc7aa4dcfd6f7"
+    },
+    "posts/biz/005_メッセージの往復回数をカウントするSQLクエリの書き方.md": {
+      "rkey": "3mtsvfpysxj6l",
+      "hash": "c61fe058335c736fe13dad6c760b831a8e1199727ecbe3f2ff12730923a8261d"
+    },
+    "posts/biz/006_ゼロからM2 MacにPython環境構築.md": {
+      "rkey": "3mtsvfq6tcdd3",
+      "hash": "7548440ec9f2a7849d9dd4f009ca0c63068ad18b978ad9440b91894751b1f8e8"
+    },
+    "posts/biz/007_SQLでカテゴリごとに最大・最小の値を持つ行を取得する.md": {
+      "rkey": "3mtsvfqeurea4",
+      "hash": "536e1ded15adc4de8ee3f3948aea3486dc77ea8a7f195e29e1ddae5fc22fd895"
+    },
+    "posts/biz/008_データに基づく意思決定と経験に基づく意思決定.md": {
+      "rkey": "3mtsvfql2umqm",
+      "hash": "ecadb2ac82ae582afb62a107d81c865d7209e9b238273c413b077c5090a7ca58"
+    },
+    "posts/biz/009_データ分析からアクションが生まれないのはなぜか？.md": {
+      "rkey": "3mtsvfqrbvyxj",
+      "hash": "2621ba99f1581a2a4705e8729a3c2a42e95e4f7ee292d3c8a5335fc17be7fb93"
+    },
+    "posts/biz/010_戦略なくしてKPIなし.md": {
+      "rkey": "3mtsvfqxn2hr7",
+      "hash": "709d0fa46ac8d6644ada7c8d223c2b5a62d4ad116cbe3798d6344b264ebc5de9"
+    },
+    "posts/biz/011_データから大通りを探せ.md": {
+      "rkey": "3mtsvfr5tgguc",
+      "hash": "a1bcb6dbb507f046fce1a0e02212b6275f8dc98cdd6387364d764f7f674b8cf4"
+    },
+    "posts/biz/012_データ分析基盤を開発するときデータを取得する方法をどうやって考えればいいのか？.md": {
+      "rkey": "3mtsvfrdssrzj",
+      "hash": "72e38604d6cd7db6210688e2803fb2e45be2fb8e20c6799cf06d2e294b577574"
+    },
+    "posts/biz/013_データ分析基盤はまず動くものを作れ.md": {
+      "rkey": "3mtsvfrjy7rnz",
+      "hash": "1a09116e6b0d53f1b10092976164078bba6c854d569b63e4444289ade9c24133"
+    },
+    "posts/biz/014_データ分析基盤におけるMVPの考え方.md": {
+      "rkey": "3mtsvfrq46k6f",
+      "hash": "155dd1942c9616876d9b55ad4ca798796c2e4699abae4a1c9dc77f47a0786fea"
+    },
+    "posts/biz/015_事業を成長に導くアナリティクスチームとは？.md": {
+      "rkey": "3mtsvfrw4hmke",
+      "hash": "8c37a69e09f818e9ec5c9ef487b2018386854520f09d7ba6963a894a384152e5"
+    },
+    "posts/biz/016_データの活用とは魔法ではなくゴールへにじりよるための手段である.md": {
+      "rkey": "3mtsvfs47bskc",
+      "hash": "c4fddea744ca0629e5dabf21f15a6bf779b0a1be032ee82e1e37e7217b1e7b2c"
+    },
+    "posts/biz/017_BIツールを導入しただけではデータの民主化が進まない理由.md": {
+      "rkey": "3mtsvfsckgqot",
+      "hash": "3557af82012798b3dc0c5f3408c0f532e4463c78cc0f21d17607a8295a01e58d"
+    },
+    "posts/biz/018_データを分析するために求められるデータの品質と改善.md": {
+      "rkey": "3mtsvfsiizybi",
+      "hash": "a6af1043af9c134f0ffd8b671adfe4b7ad7f8ae41bfea44418a3d959233af0f1"
+    },
+    "posts/biz/019_データマートがデータの民主化を促進する.md": {
+      "rkey": "3mtsvfson33ah",
+      "hash": "ec9a3caf28ad56c30148dbd118122eb56fddf12953fdc02dd97904e6958fc92b"
+    },
+    "posts/biz/020_採用したデータ分析人材をどのように配置すべきか？.md": {
+      "rkey": "3mtsvfsullv6e",
+      "hash": "840c6284f6c8c2fdc460596272dc198717ec6eaa0b4e6d47c013e079ad3a741e"
+    },
+    "posts/biz/021_意思決定を駆動する良い指標とは.md": {
+      "rkey": "3mtsvft622id2",
+      "hash": "a4dee24f8d3d5d50fcf1e204d6f195cbb478af11135eba55a929d1b890bd026d"
+    },
+    "posts/biz/022_学べる指標を探そう.md": {
+      "rkey": "3mtsvftdzneh6",
+      "hash": "689b5b1bb212bd71cb1caa5de3a39e2af21b34ef2275cbfefa1c8d370750e3ba"
+    },
+    "posts/biz/023_なぜデータ分析にはドメイン知識が必要なのか？.md": {
+      "rkey": "3mtsvftk6hkyu",
+      "hash": "17fd9c516a069be3ca9116cd36ff3995d6bf1e650e29dfba6dc8df6902f3d4e2"
+    },
+    "posts/biz/024_OKRとKPIの連携.md": {
+      "rkey": "3mtsvftq6uua7",
+      "hash": "f14c6153c1dc7a8be14447c7e6fab7a2b212fec602f0f6c4b5ad46472d90d698"
+    },
+    "posts/biz/025_先行指標と遅行指標を組み合わせて早くて確実な改善活動を進めよう.md": {
+      "rkey": "3mtsvftwbzh4f",
+      "hash": "bbbc36c56c71eb0218fe907a5647c00afa6e229ed43e4026008545e7f4709e35"
+    },
+    "posts/essay/001_「誰が悪いか」の話、もうやめませんか.md": {
+      "rkey": "3mtsvfu4eifco",
+      "hash": "028c8d45ed1eb25cf87992a247e89357ee969e05261a734abca1f50954ee9f95"
+    },
+    "posts/essay/002_教科書どおりにやるだけで勝ち越せる.md": {
+      "rkey": "3mtsvfuczsezr",
+      "hash": "dfdf566d30efdbf5e13f9c31a1375d59ad5c9f1a07e84c79d622c98cd401709c"
+    },
+    "posts/essay/003_結論が出ない会議は目標・評価・背景のどれかがズレてる.md": {
+      "rkey": "3mtsvfuj6y5lz",
+      "hash": "08d5de587a0a3ee5a24d2b95e7a7ae4e89581c692168c7fb019aae6f41ef4eaa"
+    },
+    "posts/essay/004_やりたい仕事より先に、やりたくない仕事から逃げる.md": {
+      "rkey": "3mtsvfuphlrse",
+      "hash": "decbf06938d412fb861b2df162763b13a56946fd46d2126b2969ff649327e1eb"
+    },
+    "posts/essay/005_仕事がうまくいかないときは成果じゃなくステータスをみよう.md": {
+      "rkey": "3mtsvfuvgaqcq",
+      "hash": "a89749bdf7a23d8ef06d08e537414f028d42ea998f5755a13df4ccc764f91a3d"
+    },
+    "posts/essay/006_「相手の立場で考えろ」はだいたい事故る.md": {
+      "rkey": "3mtsvfv3nziks",
+      "hash": "88bfed2782571abd731f165b567b1a00f1ee4ee39496882a776b75e93cf93847"
+    },
+    "posts/essay/007_「AIで記事を書いた」はアウトプットと言えるんだろうか.md": {
+      "rkey": "3mtsvfvbx2qi7",
+      "hash": "57a7c87e82db48f50676aa1f47e80712681d2e30b11219cd276f5b6ba9babfa8"
+    },
+    "posts/essay/008_給料に不満があるなら昇進を待つより転職したほうが早い.md": {
+      "rkey": "3mtsvfvhxr5pk",
+      "hash": "3134294987643d437253b4d5617d64b1fcff7f63e61f5a5b46d6503ee8219d5c"
+    },
+    "posts/essay/009_フリーランスの僕が副業をすすめない理由.md": {
+      "rkey": "3mtsvfvnx6oo5",
+      "hash": "4d3b455352eee35a11de4874b508453dcc1e8ecabd03022a4552b1e7d59e9d06"
+    },
+    "posts/essay/010_1つの会社に長くいるのは案外わるくない.md": {
+      "rkey": "3mtsvfvubi5cw",
+      "hash": "b743a863c4bd9c976a3ab335c1150a115cc3539250bbf72d79fc0c3c4abb6634"
+    },
+    "posts/essay/011_理解できないことをする人を愚かだと決めつけないほうがいい.md": {
+      "rkey": "3mtsvfw32p5of",
+      "hash": "fda256950346460d3420620090d8575f21b5bf9867ca1318f5b6263da44e9d5f"
+    },
+    "posts/essay/012_「いい人」の給料が伸びない理由.md": {
+      "rkey": "3mtsvfwbfr664",
+      "hash": "5b4f027daf55a0230de3a005a8bf1f95ab1f028f1f7e453f5f6a13abcac92146"
+    },
+    "posts/essay/013_AIで作れるようになった人ほど、プロの凄みがわかると思う.md": {
+      "rkey": "3mtsvfwhi723w",
+      "hash": "ba0bb2594f59c4c27bdeb0ab7dc4f0571705a1c8164db00f3e765a3babeb7eb4"
+    },
+    "posts/essay/013_会社の愚痴が多い人ほど転職しない.md": {
+      "rkey": "3mtsvfwnkrt6i",
+      "hash": "888c2dbb5aaf593d88d31b8455afd041fd019d2791ee5ac23ee9aee500f5b9f5"
+    },
+    "posts/essay/014_仕事が辛い人が狙うならFIREじゃなくてまず転職じゃない？.md": {
+      "rkey": "3mtsvfwtubmzg",
+      "hash": "e272a31087ffe4f20a92a6ad994151f4f8b4438a5f2709409f910ecc6c146cad"
+    },
+    "posts/essay/015_対等な大人だと思うから催促も注意もできる.md": {
+      "rkey": "3mtsvfx2cepao",
+      "hash": "3fbfbe6aec6b8b58bf0229ee49dc1916776f406a6dcbfd167b1c4496d4237bec"
+    },
+    "posts/essay/016_テックブログのメタクソ化.md": {
+      "rkey": "3mtsvfxaktgrt",
+      "hash": "c21d722c1ec42db7476d6bd6fa023066eb26943a8bdfdac3c2472c60b89b7761"
+    },
+    "posts/finance/001_資産運用のベースにオルカンが選ばれる理由.md": {
+      "rkey": "3mtsvfxgsgtws",
+      "hash": "8d2c9d207347731ee731174a4264f195b1a62cf405897217bda434ba4745d7a7"
+    },
+    "posts/finance/002_オルカン100%ではなく債券を組み入れよう.md": {
+      "rkey": "3mtsvfxmud7mv",
+      "hash": "21c830781da9825be0d2126f68484a85b3d4245614f027e4ba94f3064723ab65"
+    },
+    "posts/finance/003_総資産のうちいくら投資に回せばいいのか.md": {
+      "rkey": "3mtsvfxstxyjx",
+      "hash": "307147fb430f22f0bf8742148812318bec8ea4f0da486617bb858f5e4516e587"
+    },
+    "posts/finance/004_資金をどうやって投資するのか.md": {
+      "rkey": "3mtsvfxzq7xs4",
+      "hash": "53217009e4f7e5ab300590e8e71ab265eba46fe3200c2b271ed8e4ba2666b540"
+    },
+    "posts/finance/005_NISAとiDeCoどちらを優先すべきか.md": {
+      "rkey": "3mtsvfy7yrtrf",
+      "hash": "bd8b83b7ef89eda80098649658cf2ea80a83bff00e6d2e6003bddd9225024a4f"
+    },
+    "posts/finance/006_資産運用とリバランス.md": {
+      "rkey": "3mtsvfyfwyfia",
+      "hash": "70c977794e334b5553bc78c330ec69a79edb027e04c3fcb49c4a412f9138b720"
+    }
+  }
+}
