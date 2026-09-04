@@ -5,6 +5,9 @@ theme = "PaperMod"
 metaDataFormat = 'yaml'
 ignoreFiles = ['CLAUDE\.md$']
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   defaultTheme = "auto"
   ShowReadingTime = false
@@ -50,6 +53,12 @@ ignoreFiles = ['CLAUDE\.md$']
   name = "About"
   url = "/about/"
   weight = 5
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 20
 
 [markup]
   [markup.goldmark]
