@@ -9,3 +9,4 @@ exclude_dirs:
 exclude_files:
     - about.md
     - CLAUDE.md
+    - search.md
